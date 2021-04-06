@@ -20,4 +20,5 @@ while len(trade_list) < 42:
     run_num = run_num + 1
     print("On run " + str(run_num) + " there were " + str(len(trade_list)) + "/262" + " successful pearl trades")
     print("The highest amount of successful pearl trades so far is " + str(max(successful_trades_list)))
-    print()
+    print("\n")
+    
